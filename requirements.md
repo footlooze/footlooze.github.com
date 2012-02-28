@@ -1,6 +1,6 @@
 ---
 layout: page
 title: "Requirements"
-group: navigation
+group: project
 ---
 {% include JB/setup %}

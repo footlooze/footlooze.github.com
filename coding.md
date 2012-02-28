@@ -1,6 +1,6 @@
 ---
 layout: page
 title: "Coding"
-group: navigation
+group: project
 ---
 {% include JB/setup %}

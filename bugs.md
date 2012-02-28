@@ -1,6 +1,6 @@
 ---
 layout: page
 title: "Bugs"
-group: navigation
+group: project
 ---
 {% include JB/setup %}

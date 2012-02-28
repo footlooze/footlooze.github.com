@@ -1,6 +1,6 @@
 ---
 layout: page
 title: "Releases"
-group: navigation
+group: project
 ---
 {% include JB/setup %}
