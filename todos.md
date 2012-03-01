@@ -4,5 +4,8 @@ title: "Todos"
 group: project
 ---
 {% include JB/setup %}
-
-## Dropdown menus in navigation bar to organize pages
+<!--
+## ☑ Checked
+## ☐ Not
+-->
+## ☑Dropdown menus in navigation bar to organize pages
