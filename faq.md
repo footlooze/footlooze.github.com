@@ -1,6 +1,6 @@
 ---
 layout: page
 title: "FAQ"
-group: project
+group: navigation
 ---
 {% include JB/setup %}
