@@ -1,6 +1,0 @@
----
-layout: page
-title: "Blog"
-group: navigation
----
-{% include JB/setup %}

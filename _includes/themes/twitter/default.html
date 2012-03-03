@@ -31,8 +31,11 @@
         <div class="container">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <ul class="nav">
-            <li class="dropdown" data-dropdown="dropdown" >
-                <a href="#" class="dropdown-toggle">Project</a>
+            <li class="dropdown" id="project">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#project">
+                  Project
+                  <b class="caret"></b>
+                </a>
                 <ul class="dropdown-menu">
                     {% assign pages_list = site.pages %}
                     {% assign group = 'project' %}
@@ -63,7 +66,7 @@
     </div> <!-- /container -->
 
     {% include JB/analytics %}
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    <script type="text/javascript" src="{{ ASSET_PATH }}/js/1.4.0/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-dropdown.js"></script>
   </body>
 </html>
